@@ -48,11 +48,11 @@ Maximum Data per QR Code <select id="density">
 <div id="notes">
 	<p>Entering emojis (for example 😀) will result in QR codes that are not scannable.  Some unicode characters (for example ❤︎) work just fine.</p>
 	<p>To save the QR code, right-click on the image and "Save Image As".</p>
-	<p>Error Correction Level:  A lower error correction level means more data can fit into a single QR code, but the QR code may not be less reliable to scan.  A higher error correction level means less data can fit into a single QR code, but the codes may be more reliable to scan.</p>
+	<p>Error Correction Level:  A lower error correction level means more data can fit into a single QR code, but the QR code may be less reliable when scanning.  A higher error correction level means less data can fit into a single QR code, but the codes may be more reliable.</p>
 	<p>Size:  Smaller sizes may be harder to scan depending on the amount of data being displayed.</p>
 	<p>Maximum Data per QR Code: When entering a lot of data, there may be more data than can fit into a single QR code.  At 100%, QR codes are made to display as much data as possible before we split the data across multiple QR codes.  At 50%, QR codes are only made to display half as much data as they possibly can, which means more QR codes are needed to show the same amount of data, but the codes will be easier to scan.</p>
 	<p>Entered data SHA-256:  This is the hash/fingerprint of the data entered into the text box.</p>
-	<p>QR code data SHA-256:  This is the hash/fingerprint of the data shown in the QR code.  When the all data fits into a single QR code, this will match the Entered data SHA-256.</p>
+	<p>Full QR code data SHA-256:  This is the hash/fingerprint of the data shown in the QR code.  When the all data fits into a single QR code, this will match the Entered data SHA-256.</p>
 </div>
 <hr/>
 QR Code generation performed with [qrcodejs](https://github.com/KeeeX/qrcodejs) released under the [MIT License](https://github.com/KeeeX/qrcodejs/blob/master/LICENSE).
